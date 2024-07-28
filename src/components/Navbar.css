@@ -1,0 +1,49 @@
+/* Navbar container styling */
+nav {
+    position: sticky;
+    top: 0;
+    background-color:darkgray; /* Dark background for the navbar */
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(31, 30, 30, 0.1);
+}
+
+/* Navbar list styling */
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Navbar items */
+li {
+    float: left;
+    padding: 10px;
+}
+
+/* Links styling */
+nav a {
+    display: block;
+    color: white; /* Ensuring text is white */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    
+}
+
+/* Change background color of links on hover */
+nav a:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+/* Active link styling */
+.active {
+    background-color: #4CAF50; /* Green background for the active link */
+}

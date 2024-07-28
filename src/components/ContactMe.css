@@ -1,0 +1,33 @@
+.contact-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.contact-container h1 {
+    color: #333;
+}
+
+.contact-info h2 {
+    color: #0056b3;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    color: #666;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 300px; /* Fixed size */
+    height: 300px; /* Make height equal to width for a perfect circle */
+    border-radius: 50%; /* This creates the round shape */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  .greeting {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .introduction {
+    color: #555;
+    text-align: center;
+    max-width: 800px; /* Optimal line length for reading */
+    margin-top: 10px;
+  }
+  
